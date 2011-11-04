@@ -1,8 +1,0 @@
-<package project="Mer:Trunk:Base" name="libX11">
-  <title>X.Org X11 libX11 runtime library</title>
-  <description>Description: %{summary}
-
-
-</description>
-  <url>http://www.x.org/</url>
-</package>
