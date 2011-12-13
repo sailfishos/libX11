@@ -1,6 +1,6 @@
 Name: libX11
 Summary: X.Org X11 libX11 runtime library
-Version: 1.3.3
+Version: 1.4.4
 Release: 0
 Group: System/Libraries
 License: MIT
@@ -24,7 +24,7 @@ Configure: configure
 ConfigOptions:
     - --disable-dependency-tracking
     - --enable-specs=no
-PreRequires:
+Requires:
     - xorg-x11-filesystem
 SubPackages:
     - Name: devel
